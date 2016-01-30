@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Downloads/Raycast/Raycast.js">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerShooting.cs" Line="31" Column="27" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Prefabs/Cardboard/Scripts/GazeInputModule.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="64" Column="27" />
+      <File FileName="Assets/Scripts/EnemyAttack.cs" Line="82" Column="19" />
+      <File FileName="Assets/Materials/Outlined_Diffuse_Shaders_Unity5/Outlined_Diffuse.shader" Line="1" Column="1" />
+      <File FileName="../Downloads/Raycast/Raycast.js" Line="25" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
