@@ -123,8 +123,6 @@
      <Compile Include="Assets\Models\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
      <Compile Include="Assets\Models\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\Models\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
-     <Compile Include="Assets\OutlineEnemy.cs" />
-     <Compile Include="Assets\PlayHermioneAndRon.cs" />
      <Compile Include="Assets\Prefabs\Cardboard\Legacy\Scripts\CardboardOnGUI.cs" />
      <Compile Include="Assets\Prefabs\Cardboard\Legacy\Scripts\CardboardOnGUIMouse.cs" />
      <Compile Include="Assets\Prefabs\Cardboard\Legacy\Scripts\CardboardOnGUIWindow.cs" />
@@ -157,11 +155,15 @@
      <Compile Include="Assets\Scripts\DetectMagnet.cs" />
      <Compile Include="Assets\Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Highlight.cs" />
+     <Compile Include="Assets\Scripts\OutlineEnemy.cs" />
+     <Compile Include="Assets\Scripts\PlayHermioneAndRon.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerShooting.cs" />
-     <Compile Include="Assets\Spellwork.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Spellwork.cs" />
      <None Include="Assets\Models\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Prefabs\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Models\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

@@ -4,10 +4,10 @@ namespace CompleteProject
 {
     public class EnemyHealth : MonoBehaviour
     {
-        public int startingHealth = 19;            // The amount of health the enemy starts the game with.
+        public int startingHealth;            // The amount of health the enemy starts the game with.
         public int currentHealth;                   // The current health the enemy has.
         public float sinkSpeed = 2.5f;              // The speed at which the enemy sinks through the floor when dead.
-        public int scoreValue = 10;                 // The amount added to the player's score when the enemy dies.
+        public float scoreValue = 10;                 // The amount added to the player's score when the enemy dies.
         public AudioClip deathClip;                 // The sound to play when the enemy dies.
 
 
@@ -18,6 +18,12 @@ namespace CompleteProject
         bool isDead;                                // Whether the enemy is dead.
         bool isSinking;                             // Whether the enemy has started sinking through the floor.
 
+		float lastDistance = 10000000000;
+		float currDistance;
+		public float distanceStep;
+		GameObject player;
+		public bool allowEnemyGrowth = false;
+		bool isGrowing = false;
 
         void Awake ()
         {
@@ -29,6 +35,17 @@ namespace CompleteProject
 
             // Setting the current health when the enemy first spawns.
             currentHealth = startingHealth;
+			player = GameObject.FindGameObjectWithTag ("Player").gameObject;
+			if (allowEnemyGrowth) {
+				int temp = Random.Range (0, 2);
+				if (temp == 0) {
+					isGrowing = true;
+					currentHealth = 28;
+				} else {
+					isGrowing = false;
+				}
+
+			}
         }
 
 
@@ -40,6 +57,17 @@ namespace CompleteProject
                 // ... move the enemy down by the sinkSpeed per second.
                 transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
             }
+
+			currDistance = Vector3.Distance (transform.position, player.transform.position);
+			if (currDistance < lastDistance) {
+				if (isGrowing & !isSinking) {
+					scoreValue += 0.02f;
+					transform.localScale *= 1.0025f;
+				}
+				
+				scoreValue += 0.01f;
+				lastDistance = currDistance;
+			}
         }
 
 
@@ -101,7 +129,7 @@ namespace CompleteProject
             isSinking = true;
 
             // Increase the score by the enemy's score value.
-           //ScoreManager.score += scoreValue;
+			ScoreManager.score += Mathf.RoundToInt(scoreValue);
 
             // After 2 seconds destory the enemy.
             Destroy (gameObject, 2f);
