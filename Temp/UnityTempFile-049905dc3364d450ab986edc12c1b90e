@@ -1,0 +1,186 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-define:UNITY_5_3_1
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+'Assets/Materials/Elementals/Scripts/OrbitCamera.cs'
+'Assets/Materials/Elementals/Scripts/TestParticles.cs'
+'Assets/Materials/Particles/BasicBeamShot/SampleStage/GetUI.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/AutoDestroy.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/BM_WaveEffect.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/BasicBullet.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/BeamCollision.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/BeamLine.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/BeamParam.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/BeamWave.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/BillBoard.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/Create_MyLineMesh.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/Flash.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/GeroBeam.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/GeroBeamHit.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/GetColor_BeamLine.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/GetColor_Flash.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/GetColor_Particle.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/JumpScene.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/MouseTgt.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/MultiShooter.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/RandomRotate.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/ScaleWiggle.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/SceneMaster.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/ShooterRotate.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/ShotBase.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/ShotParticleEmitter.cs'
+'Assets/Materials/Particles/BasicBeamShot/Script/ShotParticle_Scale.cs'
+'Assets/Materials/Particles/PyroParticles/Demo/DemoScript.cs'
+'Assets/Materials/Particles/PyroParticles/Prefab/Script/FireBaseScript.cs'
+'Assets/Materials/Particles/PyroParticles/Prefab/Script/FireCollisionForwardScript.cs'
+'Assets/Materials/Particles/PyroParticles/Prefab/Script/FireConstantBaseScript.cs'
+'Assets/Materials/Particles/PyroParticles/Prefab/Script/FireLightScript.cs'
+'Assets/Materials/Particles/PyroParticles/Prefab/Script/FireProjectileScript.cs'
+'Assets/Materials/Particles/PyroParticles/Prefab/Script/MeteorSwarmScript.cs'
+'Assets/Materials/Particles/PyroParticles/Prefab/Script/SingleLineAttribute.cs'
+'Assets/Materials/Particles/Tazo_fx/Script/ActiveSelf.cs'
+'Assets/Materials/Particles/Tazo_fx/Script/AnimateTiledTextureOnTrail.cs'
+'Assets/Materials/Particles/Tazo_fx/Script/DestroySelf.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs'
+'Assets/Models/Handpainted Forest Environment Free Sample/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs'
+'Assets/OutlineEnemy.cs'
+'Assets/PlayHermioneAndRon.cs'
+'Assets/Prefabs/Cardboard/Legacy/Scripts/CardboardOnGUI.cs'
+'Assets/Prefabs/Cardboard/Legacy/Scripts/CardboardOnGUIMouse.cs'
+'Assets/Prefabs/Cardboard/Legacy/Scripts/CardboardOnGUIWindow.cs'
+'Assets/Prefabs/Cardboard/Legacy/Scripts/SkyboxMesh.cs'
+'Assets/Prefabs/Cardboard/Legacy/Scripts/StereoLensFlare.cs'
+'Assets/Prefabs/Cardboard/Scripts/Audio/CardboardAudio.cs'
+'Assets/Prefabs/Cardboard/Scripts/Audio/CardboardAudioListener.cs'
+'Assets/Prefabs/Cardboard/Scripts/Audio/CardboardAudioRoom.cs'
+'Assets/Prefabs/Cardboard/Scripts/Audio/CardboardAudioSource.cs'
+'Assets/Prefabs/Cardboard/Scripts/Cardboard.cs'
+'Assets/Prefabs/Cardboard/Scripts/CardboardEye.cs'
+'Assets/Prefabs/Cardboard/Scripts/CardboardHead.cs'
+'Assets/Prefabs/Cardboard/Scripts/CardboardMagnetSensor.cs'
+'Assets/Prefabs/Cardboard/Scripts/CardboardPostRender.cs'
+'Assets/Prefabs/Cardboard/Scripts/CardboardPreRender.cs'
+'Assets/Prefabs/Cardboard/Scripts/CardboardProfile.cs'
+'Assets/Prefabs/Cardboard/Scripts/GazeInputModule.cs'
+'Assets/Prefabs/Cardboard/Scripts/Pose3D.cs'
+'Assets/Prefabs/Cardboard/Scripts/StereoController.cs'
+'Assets/Prefabs/Cardboard/Scripts/StereoRenderEffect.cs'
+'Assets/Prefabs/Cardboard/Scripts/UI/CardboardReticle.cs'
+'Assets/Prefabs/Cardboard/Scripts/UI/ICardboardPointer.cs'
+'Assets/Prefabs/Cardboard/Scripts/VRDevices/BaseAndroidDevice.cs'
+'Assets/Prefabs/Cardboard/Scripts/VRDevices/BaseCardboardDevice.cs'
+'Assets/Prefabs/Cardboard/Scripts/VRDevices/BaseVRDevice.cs'
+'Assets/Prefabs/Cardboard/Scripts/VRDevices/CardboardAndroidDevice.cs'
+'Assets/Prefabs/Cardboard/Scripts/VRDevices/CardboardiOSDevice.cs'
+'Assets/Prefabs/Cardboard/Scripts/VRDevices/UnityEditorDevice.cs'
+'Assets/Scripts/Autowalk.cs'
+'Assets/Scripts/EnemyAttack.cs'
+'Assets/Scripts/EnemyHealth.cs'
+'Assets/Scripts/EnemyMovement.cs'
+'Assets/Scripts/Highlight.cs'
+'Assets/Scripts/PlayerMovement.cs'
+'Assets/Scripts/PlayerShooting.cs'
+'Assets/Spellwork.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
