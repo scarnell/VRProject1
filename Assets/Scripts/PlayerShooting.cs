@@ -31,6 +31,7 @@ namespace CompleteProject
 		GameObject enemyInSight;
 
 
+
         void Awake ()
         {
             // Create a layer mask for the Shootable layer.
